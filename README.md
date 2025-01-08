@@ -57,7 +57,7 @@ pip install a1zo
 
 ## 📚 Core Concepts
 
-<details open>
+
 <summary><h3>👤 The Agent Class</h3></summary>
 
 The Agent class is the heart of a1zo. It represents an individual AI agent within your system.
@@ -81,9 +81,9 @@ The Agent class is the heart of a1zo. It represents an individual AI agent withi
 #### Methods
 - `rollout()`: Execute the agent's main workflow
 
-</details>
 
-<details>
+
+
 <h3>🧰 The Tool Class</h3><
 
 Tools are actions or capabilities that an agent can perform.
@@ -116,9 +116,9 @@ weather_tool = Tool(
 | `verbose` | A boolean indicating whether the tool should print verbose output during execution. Defaults to `False`. |
 | `params` | An Optional dictionary containing information about the tool's parameters (automatically extracted if not provided). |
 
-</details>
 
-<details>
+
+
 <h3>👥 The TaskForce Class</h3>
 
 Manage a group of Agent objects for collaboration and complex workflows.
@@ -135,14 +135,14 @@ Manage a group of Agent objects for collaboration and complex workflows.
 - `record_result(agent)`: Save the result of an agent's workflow
 - `exit_force()`: End the task force's workflow also delete the cache
 
-<details>
+
 Workflow Diagram
 
 ![Workflow](https://raw.githubusercontent.com/E5Anant/archeAI/main/assets/WorkFlow.png)
 
-</details>
 
-</details>
+
+
 
 ---
 
@@ -199,14 +199,14 @@ This example demonstrates creating agents with tools and using a TaskForce to ma
 
 ## 🧐 Important Questions
 
-<details>
+
 <strong>What does `record_result` func do?</strong>
 
 The `record_result` function is used to save the result of an agent's workflow. This can be useful for passing one agent's response to another.
 
 This concludes in the scalability and simplicity of the architecture.
 
-</details>
+
 
 ---
 
@@ -228,7 +228,7 @@ a1zo is designed for efficiency:
 
 ---
 
-<details>
+
 Actual Use Case:
 
 ```python
@@ -360,7 +360,7 @@ task_force.exit_force()
 
 The Tools used from a1zo in the use case are totally experimental and are not recommended to use.
 
-</details>
+
 
 <div align="center">
 
