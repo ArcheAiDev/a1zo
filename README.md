@@ -6,7 +6,7 @@
 
 *Building AI agents should feel like assembling a dream team, not wrestling with complex code.*
 
-<h4>CA:</h4>
+<h4>CA:3XFMHEi8yqD5sRvFat52yai2N3kZHWu1WZcRT3Zcpump</h4>
 
 ![Pypi Version](https://img.shields.io/badge/archeai-0.0.6-mediumgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -84,7 +84,7 @@ The Agent class is the heart of a1zo. It represents an individual AI agent withi
 </details>
 
 <details>
-<summary><h3>🧰 The Tool Class</h3></summary>
+<h3>🧰 The Tool Class</h3><
 
 Tools are actions or capabilities that an agent can perform.
 
@@ -119,7 +119,7 @@ weather_tool = Tool(
 </details>
 
 <details>
-<summary><h3>👥 The TaskForce Class</h3></summary>
+<h3>👥 The TaskForce Class</h3>
 
 Manage a group of Agent objects for collaboration and complex workflows.
 
@@ -136,7 +136,7 @@ Manage a group of Agent objects for collaboration and complex workflows.
 - `exit_force()`: End the task force's workflow also delete the cache
 
 <details>
-<summary>Workflow Diagram</summary>
+Workflow Diagram
 
 ![Workflow](https://raw.githubusercontent.com/E5Anant/archeAI/main/assets/WorkFlow.png)
 
@@ -200,7 +200,7 @@ This example demonstrates creating agents with tools and using a TaskForce to ma
 ## 🧐 Important Questions
 
 <details>
-<summary><strong>What does `record_result` func do?</strong></summary>
+<strong>What does `record_result` func do?</strong>
 
 The `record_result` function is used to save the result of an agent's workflow. This can be useful for passing one agent's response to another.
 
@@ -229,7 +229,7 @@ a1zo is designed for efficiency:
 ---
 
 <details>
-<summary>Actual Use Case:</summary>
+Actual Use Case:
 
 ```python
 from a1zo.llms import Gemini
