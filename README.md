@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Welcome to Nalona AI! 🚀
+# Welcome to ai1zo AI! 🚀
 
 *Building AI agents should feel like assembling a dream team, not wrestling with complex code.*
 
