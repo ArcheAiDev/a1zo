@@ -6,23 +6,18 @@
 
 *Building AI agents should feel like assembling a dream team, not wrestling with complex code.*
 
-![Alpha Version](https://img.shields.io/badge/AlphaVersion-1.1-mediumgreen)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/NalonaAI/Nalona/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/NalonaAI/NalonaAI.svg?style=social&label=Star)](https://github.com/NalonaAI/Nalona)
-
-[Documentation](https://github.com/NalonaAI/Nalona#readme) | [Web](https://nalona.xyz/) | [GitHub Repository](https://github.com/NalonaAI/Nalona)
 
 </div>
 
 ---
 
-## 🌟 Why Nalona AI?
+## 🌟 Why ai1zo AI?
 
 <div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px;">
 
-Nalona AI is a lightweight Python framework designed to make AI agent development intuitive, flexible, and downright fun! 🎉
+ai1o AI is a lightweight Python framework designed to make AI agent development intuitive, flexible, and downright fun! 🎉
 
-> "Another AI agent framework? What makes Nalona AI different?" 🤔
+> "Another AI agent framework? What makes ai1zo AI different?" 🤔
 
 Let's break it down:
 
@@ -45,10 +40,10 @@ Let's break it down:
 
 ## ⚙️ Installation
 
-Get started with nalona in just one line:
+Get started with ai1zo in just one line:
 
 ```bash
-pip install nalona
+pip install ai1zo
 ```
 
 ---
@@ -58,7 +53,7 @@ pip install nalona
 
 <summary><h3>👤 The Agent Class</h3></summary>
 
-The Agent class is the heart of nalona. It represents an individual AI agent within your system.
+The Agent class is the heart of ai1zo. It represents an individual AI agent within your system.
 
 #### Key Attributes
 
@@ -87,7 +82,7 @@ The Agent class is the heart of nalona. It represents an individual AI agent wit
 Tools are actions or capabilities that an agent can perform.
 
 ```python
-from nalona import Tool
+from ai1zo import Tool
 
 def get_weather(city: str):
     """Fetches the current weather for a given city."""
@@ -149,8 +144,8 @@ Workflow Diagram
 <div style="background-color: #e6f7ff; padding: 15px; border-radius: 5px;">
 
 ```python
-from nalona import Agent, Tool, TaskForce
-from nalona.llms import Gemini
+from ai1zo import Agent, Tool, TaskForce
+from ai1zo.llms import Gemini
 
 # Initialize your LLM
 llm = Gemini()
@@ -219,7 +214,7 @@ This concludes in the scalability and simplicity of the architecture.
 
 ## 📈 Performance and Scalability
 
-nalona is designed for efficiency:
+ai1zo is designed for efficiency:
 
 - Lightweight core for minimal overhead
 - Scalable architecture for complex agent networks
@@ -230,9 +225,9 @@ nalona is designed for efficiency:
 Actual Use Case:
 
 ```python
-from nalona.llms import Gemini
-from nalona import Agent, Tool, TaskForce
-from nalona.tools import get_current_time, web_search
+from ai1zo.llms import Gemini
+from ai1zo import Agent, Tool, TaskForce
+from ai1zo.tools import get_current_time, web_search
 import os
 
 def list_dir():
@@ -356,7 +351,7 @@ task_force.exit_force()
 
 ```
 
-The Tools used from Nalona AI in the use case are totally experimental and are not recommended to use.
+The Tools used from ai1zo AI in the use case are totally experimental and are not recommended to use.
 
 
 
